@@ -1,5 +1,5 @@
 //
-//  TRAppDelegate.h
+//  TRDrawView.h
 //  Day4PhotoRiver
 //
 //  Created by tarena on 14-8-4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TRDrawView : UIView
 
 @end

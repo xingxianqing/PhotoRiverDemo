@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "85A8F18E198F1DE000EAD325"
                BuildableName = "Day4PhotoRiver.app"
                BlueprintName = "Day4PhotoRiver"
+               ReferencedContainer = "container:Day4PhotoRiver.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "85A8F1AF198F1DE100EAD325"
+               BuildableName = "Day4PhotoRiverTests.xctest"
+               BlueprintName = "Day4PhotoRiverTests"
                ReferencedContainer = "container:Day4PhotoRiver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -21,6 +21,8 @@
 		85A8F1B4198F1DE100EAD325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A8F196198F1DE000EAD325 /* UIKit.framework */; };
 		85A8F1BC198F1DE100EAD325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85A8F1BA198F1DE100EAD325 /* InfoPlist.strings */; };
 		85A8F1BE198F1DE100EAD325 /* Day4PhotoRiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F1BD198F1DE100EAD325 /* Day4PhotoRiverTests.m */; };
+		85A8F1C9198F1E2900EAD325 /* TRPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F1C8198F1E2900EAD325 /* TRPhoto.m */; };
+		85A8F1CC198F1E4200EAD325 /* TRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F1CB198F1E4200EAD325 /* TRDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		85A8F1B9198F1DE100EAD325 /* Day4PhotoRiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Day4PhotoRiverTests-Info.plist"; sourceTree = "<group>"; };
 		85A8F1BB198F1DE100EAD325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85A8F1BD198F1DE100EAD325 /* Day4PhotoRiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day4PhotoRiverTests.m; sourceTree = "<group>"; };
+		85A8F1C7198F1E2900EAD325 /* TRPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPhoto.h; sourceTree = "<group>"; };
+		85A8F1C8198F1E2900EAD325 /* TRPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPhoto.m; sourceTree = "<group>"; };
+		85A8F1CA198F1E4200EAD325 /* TRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDrawView.h; sourceTree = "<group>"; };
+		85A8F1CB198F1E4200EAD325 /* TRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				85A8F1A4198F1DE000EAD325 /* Main.storyboard */,
 				85A8F1A7198F1DE000EAD325 /* TRViewController.h */,
 				85A8F1A8198F1DE000EAD325 /* TRViewController.m */,
+				85A8F1C7198F1E2900EAD325 /* TRPhoto.h */,
+				85A8F1C8198F1E2900EAD325 /* TRPhoto.m */,
+				85A8F1CA198F1E4200EAD325 /* TRDrawView.h */,
+				85A8F1CB198F1E4200EAD325 /* TRDrawView.m */,
 				85A8F1AA198F1DE000EAD325 /* Images.xcassets */,
 				85A8F199198F1DE000EAD325 /* Supporting Files */,
 			);
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A8F1C9198F1E2900EAD325 /* TRPhoto.m in Sources */,
 				85A8F1A3198F1DE000EAD325 /* TRAppDelegate.m in Sources */,
 				85A8F19F198F1DE000EAD325 /* main.m in Sources */,
+				85A8F1CC198F1E4200EAD325 /* TRDrawView.m in Sources */,
 				85A8F1A9198F1DE000EAD325 /* TRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Day4PhotoRiver/Day4PhotoRiver-Prefix.pch";
 				INFOPLIST_FILE = "Day4PhotoRiver/Day4PhotoRiver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Day4PhotoRiver/Day4PhotoRiver-Prefix.pch";
 				INFOPLIST_FILE = "Day4PhotoRiver/Day4PhotoRiver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +471,7 @@
 				85A8F1C3198F1DE100EAD325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A8F1C4198F1DE100EAD325 /* Build configuration list for PBXNativeTarget "Day4PhotoRiverTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				85A8F1C6198F1DE100EAD325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
